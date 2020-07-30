@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18AA7C6324D341880094BFF8 /* EnvironmentalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AA7C6224D341880094BFF8 /* EnvironmentalViewController.swift */; };
+		18AA7C6524D342760094BFF8 /* PrisonLaborViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AA7C6424D342760094BFF8 /* PrisonLaborViewController.swift */; };
+		18AA7C6724D342FD0094BFF8 /* EconomicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AA7C6624D342FD0094BFF8 /* EconomicViewController.swift */; };
+		18AA7C6924D343580094BFF8 /* AroundWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AA7C6824D343580094BFF8 /* AroundWorldViewController.swift */; };
+		18AA7C6B24D343920094BFF8 /* StoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AA7C6A24D343920094BFF8 /* StoriesViewController.swift */; };
+		18AA7C6D24D343BC0094BFF8 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AA7C6C24D343BC0094BFF8 /* ResourcesViewController.swift */; };
 		18B8120724D0A0FA004306CB /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B8120624D0A0FA004306CB /* RoundButton.swift */; };
 		F50060FF24CF42950005A019 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50060FE24CF42950005A019 /* AppDelegate.swift */; };
 		F500610124CF42950005A019 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F500610024CF42950005A019 /* SceneDelegate.swift */; };
@@ -18,6 +24,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18AA7C6224D341880094BFF8 /* EnvironmentalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentalViewController.swift; sourceTree = "<group>"; };
+		18AA7C6424D342760094BFF8 /* PrisonLaborViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrisonLaborViewController.swift; sourceTree = "<group>"; };
+		18AA7C6624D342FD0094BFF8 /* EconomicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EconomicViewController.swift; sourceTree = "<group>"; };
+		18AA7C6824D343580094BFF8 /* AroundWorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AroundWorldViewController.swift; sourceTree = "<group>"; };
+		18AA7C6A24D343920094BFF8 /* StoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesViewController.swift; sourceTree = "<group>"; };
+		18AA7C6C24D343BC0094BFF8 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
 		18B8120624D0A0FA004306CB /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		F50060FB24CF42950005A019 /* Disentangled.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Disentangled.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50060FE24CF42950005A019 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +76,12 @@
 				F500610024CF42950005A019 /* SceneDelegate.swift */,
 				F500610224CF42950005A019 /* ViewController.swift */,
 				F500610424CF42950005A019 /* Main.storyboard */,
+				18AA7C6224D341880094BFF8 /* EnvironmentalViewController.swift */,
+				18AA7C6424D342760094BFF8 /* PrisonLaborViewController.swift */,
+				18AA7C6624D342FD0094BFF8 /* EconomicViewController.swift */,
+				18AA7C6824D343580094BFF8 /* AroundWorldViewController.swift */,
+				18AA7C6A24D343920094BFF8 /* StoriesViewController.swift */,
+				18AA7C6C24D343BC0094BFF8 /* ResourcesViewController.swift */,
 				18B8120624D0A0FA004306CB /* RoundButton.swift */,
 				F500610A24CF429A0005A019 /* Assets.xcassets */,
 				F500610C24CF429A0005A019 /* LaunchScreen.storyboard */,
@@ -144,11 +162,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AA7C6D24D343BC0094BFF8 /* ResourcesViewController.swift in Sources */,
+				18AA7C6B24D343920094BFF8 /* StoriesViewController.swift in Sources */,
 				F500610324CF42950005A019 /* ViewController.swift in Sources */,
 				18B8120724D0A0FA004306CB /* RoundButton.swift in Sources */,
 				F50060FF24CF42950005A019 /* AppDelegate.swift in Sources */,
+				18AA7C6724D342FD0094BFF8 /* EconomicViewController.swift in Sources */,
+				18AA7C6324D341880094BFF8 /* EnvironmentalViewController.swift in Sources */,
 				F500610124CF42950005A019 /* SceneDelegate.swift in Sources */,
+				18AA7C6924D343580094BFF8 /* AroundWorldViewController.swift in Sources */,
 				F500610924CF42950005A019 /* Disentangled.xcdatamodeld in Sources */,
+				18AA7C6524D342760094BFF8 /* PrisonLaborViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
