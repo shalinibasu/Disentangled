@@ -243,7 +243,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.38823529410000002" green="0.32156862749999998" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
-                                <state key="normal" title="Environmental Issues in Coordination with Incarceration">
+                                <state key="normal" title="Environmental Impact of Incarceration">
                                     <color key="titleColor" red="0.89019607840000003" green="0.86666666670000003" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -259,7 +259,7 @@
                                     <segue destination="RlZ-lE-YP3" kind="show" id="gFa-Q7-nwx"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Educate yourself on the economics and systemic environmental losses of incarceration." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rlv-Xn-1ot">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Educate yourself on incarceration." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rlv-Xn-1ot">
                                 <rect key="frame" x="71" y="146" width="273" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -571,7 +571,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="60" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rGL-dv-OQS">
                                 <rect key="frame" x="0.0" y="20" width="414" height="631"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">I. Global warming and greenhouse gases
+                                <string key="text">I. Global warming and greenhouse gases
 The once esteemed atmosphere preserving Earth’s fortunes is -now- indicative of our annihilation.
  No. 
 We, the people of planet earth, are to condemn. 
@@ -579,7 +579,7 @@ The atmosphere (composed of carbon dioxide, methane, nitrous oxide, water vapor,
 The aforementioned gases are characterized as the “Greenhouse gases”, as they encompass the ability to keep thermal energy within Earth’s atmosphere. When the sun’s ultraviolet radiation reaches the Earth in the form of short-wavelengths, a fragment of energy is either re-emitted in the form of long-wavelengths (and leaves the Earth’s atmosphere) or absorbed by the soil. However, the majority of radiation is absorbed by molecules in the atmosphere (the greenhouse gases). 
 The greenhouse gases, upon a short time’s passing, will re-emit the radiation that is -then- absorbed by other molecules. Hence, there is an analogous “domino-effect” amongst the molecules, known as the “greenhouse effect”. 
 Although the re-emitted radiation in the form of heat energy allows the Earth to maintain a temperature suitable for living organisms, the excess amount of human-synthesized molecules perpetuates the amount of radiation absorbed and emitted in the form of thermal energy; thereby spurring global warming. 
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="0.20709616359999999" green="0.47775978819999998" blue="0.52575745559999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -619,7 +619,7 @@ Although the re-emitted radiation in the form of heat energy allows the Earth to
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="80" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Z1-zs-qrY">
                                 <rect key="frame" x="0.0" y="20" width="414" height="788"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">II.  Environmental injustices cohesive with mass incarceration 
+                                <string key="text">II.  Environmental injustices cohesive with mass incarceration 
 
 The U.S, according to the Prison Policy initiative in a report concluded in 2020, “holds nearly 2.3 million people in 1,833 state prisons, 110 federal prisons, 1,772 juvenile correctional facilities, 3,134 local jails, 218 immigration detention facilities, and 80 Indian Country jails as well as in military prisons, civil commitment centers, state psychiatric hospitals, and prisons in the U.S. territories”.
  The inhumane cramming of prisoners in facilities and institutions has produced severe environmental inequalities for both the personages and the environment. For instance, the Human Rights Coalition found that -a combined- 201% of prisoners of The Fayette State Correctional Institution were experiencing symptoms (skin rashes, sore throats, and vision loss) produced by coal ash. The Fayette Correctional Institution sits upon an old striping-mining site, adjacent to Western Pennsylvania's coalfields.  
@@ -635,7 +635,7 @@ EPA.gov
 
 
 
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                 <color key="textColor" red="0.20709616359999999" green="0.47775978819999998" blue="0.52575745559999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
