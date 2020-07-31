@@ -21,6 +21,7 @@
 		F500610924CF42950005A019 /* Disentangled.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F500610724CF42950005A019 /* Disentangled.xcdatamodeld */; };
 		F500610B24CF429A0005A019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F500610A24CF429A0005A019 /* Assets.xcassets */; };
 		F500610E24CF429A0005A019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F500610C24CF429A0005A019 /* LaunchScreen.storyboard */; };
+		F50DCAE124D39B18008F60DD /* NSAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50DCAE024D39B18008F60DD /* NSAttributedStringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		F500610A24CF429A0005A019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F500610D24CF429A0005A019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F500610F24CF429A0005A019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F50DCAE024D39B18008F60DD /* NSAttributedStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				F500610024CF42950005A019 /* SceneDelegate.swift */,
 				F500610224CF42950005A019 /* ViewController.swift */,
 				F500610424CF42950005A019 /* Main.storyboard */,
+				F50DCAE024D39B18008F60DD /* NSAttributedStringExtension.swift */,
 				18AA7C6224D341880094BFF8 /* EnvironmentalViewController.swift */,
 				18AA7C6424D342760094BFF8 /* PrisonLaborViewController.swift */,
 				18AA7C6624D342FD0094BFF8 /* EconomicViewController.swift */,
@@ -165,6 +168,7 @@
 				18AA7C6D24D343BC0094BFF8 /* ResourcesViewController.swift in Sources */,
 				18AA7C6B24D343920094BFF8 /* StoriesViewController.swift in Sources */,
 				F500610324CF42950005A019 /* ViewController.swift in Sources */,
+				F50DCAE124D39B18008F60DD /* NSAttributedStringExtension.swift in Sources */,
 				18B8120724D0A0FA004306CB /* RoundButton.swift in Sources */,
 				F50060FF24CF42950005A019 /* AppDelegate.swift in Sources */,
 				18AA7C6724D342FD0094BFF8 /* EconomicViewController.swift in Sources */,

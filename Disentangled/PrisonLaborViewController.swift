@@ -10,13 +10,31 @@ import UIKit
 
 class PrisonLaborViewController: UIViewController {
 
+    @IBOutlet weak var companies: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        updateCompanies()
+        
+        companies.layer.cornerRadius = 5
     }
     
+    func updateCompanies(){
+        let path = "https://blog.globaltel.com/companies-use-prison-labor/"
+        let text = companies.text ?? ""
+        let attributedString = NSAttributedString.makeHyperLink(for: path, in: text, as: "Companies Profitting Off of Prison Labor")
+        let font = companies.font
+        let color = companies.textColor
+        companies.attributedText = attributedString
+        companies.font = font
+        companies.textColor = color
+        companies.textAlignment = .center
+        
+        
+    }
 
+    
     /*
     // MARK: - Navigation
 
